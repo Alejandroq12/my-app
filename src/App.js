@@ -1,6 +1,7 @@
 
 import './App.css';
 import ListCharacters from './components/ListCharacters';
+import Pagination from './components/Pagination';
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h1>Hola chicos</h1>
-      <ListCharacters />
+      <Pagination />
+
       </header>
     </div>
   );
