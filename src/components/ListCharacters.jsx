@@ -13,7 +13,7 @@ export default class ListCharacters extends Component {
 
 
     fetchApi = async () => {
-        let response = await fetch('https://rickandmortyapi.com/api/character')
+        let response = await fetch('https://rickandmortyapi.com/api/character/?page=2')
         let data = await response.json()
 
         // console.log(data.results);
