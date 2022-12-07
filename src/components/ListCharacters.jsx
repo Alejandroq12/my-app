@@ -30,11 +30,17 @@ export default class ListCharacters extends Component {
     changePage = (prop) => {
         this.setState({
             pageNum: prop
-
             })
+            this.fetchApi();
     }
 
-    
+    componentDidUpdate(prevProps, prevState){
+        if(prevProps. conteo !== this.props.conteo){
+            this.changePage(this.props.conteo);
+        }
+    }
+
+
 
 
     render() {
