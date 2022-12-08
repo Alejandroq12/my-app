@@ -10,7 +10,6 @@ function App() {
       <header className="App-header">
       <h1>Hola chicos</h1>
       <Pagination />
-
       </header>
     </div>
   );
